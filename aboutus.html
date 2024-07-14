@@ -30,6 +30,29 @@
             margin: 0;
             animation: fadeIn 2s ease-in-out;
         }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(6, 26, 54, 0.9);
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds shadow for 3D effect */
+            width: 100%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 16px;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: rgba(11, 61, 145, 0.8);
+            border-radius: 5px;
+            transform: translateY(-3px); /* Adds lift effect on hover */
+        }
         .content {
             max-width: 800px;
             text-align: center;
@@ -63,6 +86,14 @@
     <header>
         <h1>Welcome to Nakshatra Astronomy Club! 🌌</h1>
     </header>
+    <nav>
+        <a href="index.html#home">Home</a>
+        <a href="index.html#events">Events</a>
+        <a href="gallery1.html">Gallery</a>
+        <a href="index.html#membership">Membership</a>
+        <a href="index.html#resources">Resources</a>
+        <a href="Contactus.html">Contact</a>
+    </nav>
     <div class="content">
         <p>Join us on a celestial journey where curiosity meets the cosmos. Nakshatra Astronomy Club is a vibrant community dedicated to exploring the wonders of the universe and beyond. Whether you're an aspiring astronomer, a seasoned stargazer, or simply fascinated by the mysteries of space, our club offers a constellation of opportunities:</p>
         <p><span>🔭 Explore the Cosmos:</span> From planetary alignments to distant galaxies, delve into the beauty and complexity of the universe with like-minded enthusiasts.</p>
