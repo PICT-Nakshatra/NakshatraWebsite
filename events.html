@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | PICT Nakshatra Astronomy Club</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+        body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+            background: url('https://i.pinimg.com/originals/0a/77/62/0a776207cca1b974300ea8bc34fdfc8a.jpg') no-repeat center center fixed;
+            background-size: cover;
+            perspective: 1000px;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.8em; /* Decreased font size */
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+        }
+        header img {
+            height: 80px; /* Decreased logo size */
+            width: auto;
+            border-radius: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 10px 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        nav a:hover {
+            background: rgba(11, 61, 145, 0.8);
+            border-radius: 5px;
+            transform: translateY(-3px);
+        }
+        .content {
+            padding: 60px 20px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+        .content h2 {
+            margin-top: 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2em;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+        }
+        .events-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .event-card {
+            background: rgba(0, 0, 0, 0.8);
+            margin: 10px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+            width: 300px;
+            transition: transform 0.5s, box-shadow 0.5s;
+            overflow: hidden;
+            position: relative;
+            text-align: left;
+        }
+        .event-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.5s;
+        }
+        .event-card:hover img {
+            transform: scale(1.1);
+        }
+        .event-card h3 {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5em;
+            color: #ffd700;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+        .event-card p {
+            margin: 10px 0;
+            color: #cccccc;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+            font-family: 'Montserrat', sans-serif;
+        }
+        footer p {
+            margin: 0;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="abc.jpg" alt="Club Logo">
+        <h1>PICT Nakshatra Astronomy Club</h1>
+    </header>
+    <nav>
+        <a href="index.html#home">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="events.html">Events</a>
+        <a href="gallery1.html">Gallery</a>
+        <a href="index.html#membership">Membership</a>
+        <a href="index.html#resources">Resources</a>
+        <a href="Contactus.html">Contact</a>
+    </nav>
+
+    <div class="content">
+        <h2>Upcoming Events</h2>
+        <div class="events-container">
+            <div class="event-card">
+                <img src="https://imgs.search.brave.com/pQIBHQMOQ4ijG8AfT0PlR-fOW59dlQrAN7Bkb78ociU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMzk2/NTkuanBn" alt="Space Day Special">
+                <h3>Space Day Special</h3>
+                <p>To be notified soon</p>
+            </div>
+        </div>
+
+        <h2>Completed Events</h2>
+        <div class="events-container">
+            <div class="event-card">
+                <img src="img4.jpg" alt="Guest Lecture by Tushar Purohit">
+                <h3>Guest Lecture by Tushar Purohit</h3>
+                <p>Date: February 29, 2024</p>
+                <p>Location: PICT Auditorium</p>
+                <p>A fascinating talk by Tushar Purohit on History Of Telescope and its advancements.</p>
+            </div>
+            <div class="event-card">
+                <img src="MoonJupy.jpg" alt="Moon and Jupiter Conjunction">
+                <h3>Moon and Jupiter Conjunction Observation</h3>
+                <p>Date: March 14, 2024</p>
+                <p>Location: PICT Rooftop</p>
+                <p>Experience the stunning conjunction of the Moon and Jupiter.</p>
+            </div>
+            <div class="event-card">
+                <img src="IUCCA.jpg" alt="IUCCA Visit">
+                <h3>IUCCA Visit</h3>
+                <p>Date: May 24, 2024</p>
+                <p>Join us for an informative visit to the Inter-University Centre for Astronomy and Astrophysics (IUCAA).</p>
+            </div>
+            <div class="event-card">
+                <img src="img1.jpg" alt="Telescope Handling">
+                <h3>Telescope Handling</h3>
+                <p>Date: May 30, 2024</p>
+                <p>Location: PICT Rooftop</p>
+                <p>Learn the art of handling and using telescopes for stargazing.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 PICT Nakshatra Astronomy Club. All rights reserved.</p>
+    </footer>
+</body>
+</html>
